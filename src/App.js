@@ -1,7 +1,7 @@
-import Expenses from './components/Expenses';
+import Expenses from './components/Expenses/Expenses';
 
 // 원래는 js에서 HTML 문법을 사용할 수 없지만 JSX 덕분에 사용이 가능하다. 
-function App() {
+const  App = () => {
   const expenses = [
     {
       id : 'e1', 
