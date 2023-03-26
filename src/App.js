@@ -1,3 +1,5 @@
+import React from 'react';
+import NewExpense from './components/NewExpense/NewExpense';
 import Expenses from './components/Expenses/Expenses';
 
 // 원래는 js에서 HTML 문법을 사용할 수 없지만 JSX 덕분에 사용이 가능하다. 
@@ -31,6 +33,7 @@ const  App = () => {
 
   return (
     <div>
+          <NewExpense />
           <Expenses items={expenses}></Expenses>
     </div>
   );
